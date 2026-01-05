@@ -1,4 +1,4 @@
-import { activities } from "@/lib/activities";
+rimport { activities } from "@/lib/activities";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

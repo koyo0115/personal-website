@@ -42,7 +42,7 @@ export default function Philosophy() {
                             <ArrowUpRight className="text-gray-500 group-hover:text-white transition-colors" />
                         </div>
                         <h3 className="text-3xl font-bold mb-4 group-hover:underline decoration-1 underline-offset-8">
-                            思想を読む。
+                            NOTEを読む。
                         </h3>
                         <p className="text-gray-500 text-sm">
                             Read the full manifesto on Note.
