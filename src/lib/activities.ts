@@ -53,7 +53,7 @@ export const activities = [
         concept: "一定のリズムの中で、思考と身体が溶け合う動的な瞑想。",
         philosophy: "走ることは、祈ることにも似ている。地面を蹴る単純な反復の中に、真理は宿る。",
         ritual: "毎週水曜夜、皇居外周。ペースは問わない。自身の呼吸とリズムだけに集中する20km。",
-        image: "https://images.unsplash.com/photo-1552674605-46d5c7248f2b?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=2070&auto=format&fit=crop",
         icon: Activity,
         gradient: "from-orange-950 to-black"
     },

@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/l202505-1021/  Antigravity_1/src/app/layout":["static/media/f2dba9fbcf2f771b-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/l202505-1021/  Antigravity_1/src/app/layout\":[\"static/media/f2dba9fbcf2f771b-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
