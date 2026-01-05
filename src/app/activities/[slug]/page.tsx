@@ -1,16 +1,9 @@
-rimport { activities } from "@/lib/activities";
+"use client";
+
+import { activities } from "@/lib/activities";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-// import { MotionDiv, MotionH1, MotionP } from "@/components/MotionClient"; // Assuming we need client components for framer-motion in server component page? 
-// NextJS App Router server components can't use framer-motion directly.
-// We should make this page a client component or use a client wrapper.
-// Given the requirements for "immersive" and "motion", let's make the inner part a client component.
-// Or just make the whole page "use client".
-// Let's make the whole page client for simplicity with motion.
-
-"use client";
-
 import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
