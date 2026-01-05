@@ -1,5 +1,6 @@
 import { Mountain, Dumbbell, Film, Waves, Activity, Brain } from "lucide-react";
 
+// Updated for 6 Pillars Expansion (Marathon & Meditation added)
 export const activities = [
     {
         id: "ascent",

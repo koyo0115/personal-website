@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { activities } from "@/lib/activities";
 
+// Rendering 6 Pillars Grid
 export default function ActivityPillars() {
     return (
         <section className="py-32 px-6 md:px-12 text-white">
