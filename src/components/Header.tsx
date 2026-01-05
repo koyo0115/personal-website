@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Instagram, BookOpen, Mail } from "lucide-react";
+import { Instagram, BookOpen, MessageCircle } from "lucide-react";
 
 export default function Header() {
     return (
@@ -34,11 +34,12 @@ export default function Header() {
                     <BookOpen size={20} />
                 </a>
                 <a
-                    href="mailto:contact@on-ur-own.com"
+                    href="https://discord.gg/952MyeaX"
+                    target="_blank"
                     className="p-2 rounded-full hover:bg-white/20 transition-colors"
-                    aria-label="Contact"
+                    aria-label="Discord"
                 >
-                    <Mail size={20} />
+                    <MessageCircle size={20} />
                 </a>
             </nav>
         </motion.header>

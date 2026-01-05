@@ -44,7 +44,9 @@ export default function Hero() {
                     className="flex flex-col items-center gap-4"
                 >
                     <a
-                        href="mailto:contact@on-ur-own.com"
+                        href="https://discord.gg/952MyeaX"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-white text-black px-12 py-4 text-sm font-bold tracking-widest uppercase hover:blur-[1px] transition-all"
                     >
                         参加リクエスト
