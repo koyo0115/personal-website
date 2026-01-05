@@ -19,18 +19,27 @@ export default function VisualVibe() {
                 </a>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto">
-                {[1, 2, 3, 4].map((i) => (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto px-6">
+                {[
+                    { title: "Silence", img: "https://images.unsplash.com/photo-1519681393798-38e36fefce15?q=80&w=1000&auto=format&fit=crop" },
+                    { title: "Focus", img: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1000&auto=format&fit=crop" },
+                    { title: "Release", img: "https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=1000&auto=format&fit=crop" },
+                    { title: "Immerse", img: "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1000&auto=format&fit=crop" }
+                ].map((item, i) => (
                     <motion.div
                         key={i}
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ delay: i * 0.1 }}
-                        className="aspect-square bg-[#111] overflow-hidden group cursor-pointer"
+                        className="aspect-square bg-[#111] relative overflow-hidden group cursor-pointer"
                     >
-                        <div className="w-full h-full bg-cover bg-center opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0"
-                            style={{ backgroundImage: `url('https://placehold.co/600x600/1a1a1a/333333/png?text=Vibe+${i}')` }}
+                        <div
+                            className="w-full h-full bg-cover bg-center opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0"
+                            style={{ backgroundImage: `url('${item.img}')` }}
                         />
+                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/40">
+                            <span className="text-white font-bold tracking-widest uppercase border-b border-white pb-1">{item.title}</span>
+                        </div>
                     </motion.div>
                 ))}
             </div>
