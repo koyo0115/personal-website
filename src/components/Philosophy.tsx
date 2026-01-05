@@ -33,7 +33,7 @@ export default function Philosophy() {
                     transition={{ delay: 0.2 }}
                 >
                     <a
-                        href="https://note.com/"
+                        href="https://note.com/matuurabansaku55"
                         target="_blank"
                         className="block bg-[#111] p-12 border border-white/10 hover:border-white/30 transition-colors group"
                     >

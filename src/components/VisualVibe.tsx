@@ -11,7 +11,7 @@ export default function VisualVibe() {
                     Moments of Clarity.
                 </h2>
                 <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/on.ur.own?igsh=a2swbHV6ZmkwcnR5&utm_source=qr"
                     target="_blank"
                     className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500 hover:text-white transition-colors"
                 >

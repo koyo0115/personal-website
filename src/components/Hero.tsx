@@ -44,9 +44,7 @@ export default function Hero() {
                     className="flex flex-col items-center gap-4"
                 >
                     <a
-                        href="https://line.me/R/ti/p/@placeholder"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="mailto:contact@on-ur-own.com"
                         className="bg-white text-black px-12 py-4 text-sm font-bold tracking-widest uppercase hover:blur-[1px] transition-all"
                     >
                         参加リクエスト

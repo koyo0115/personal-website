@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Instagram, BookOpen, Send } from "lucide-react";
+import { Instagram, BookOpen, Mail } from "lucide-react";
 
 export default function Header() {
     return (
@@ -13,12 +13,12 @@ export default function Header() {
             className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6 mix-blend-difference text-white"
         >
             <Link href="/" className="text-xl font-black tracking-tighter uppercase flex items-center gap-3 hover:opacity-80 transition-opacity">
-                On. Ur Own
+                On Ur Own
             </Link>
 
             <nav className="flex items-center gap-6">
                 <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/on.ur.own?igsh=a2swbHV6ZmkwcnR5&utm_source=qr"
                     target="_blank"
                     className="p-2 rounded-full hover:bg-white/20 transition-colors"
                     aria-label="Instagram"
@@ -26,7 +26,7 @@ export default function Header() {
                     <Instagram size={20} />
                 </a>
                 <a
-                    href="https://note.com"
+                    href="https://note.com/matuurabansaku55"
                     target="_blank"
                     className="p-2 rounded-full hover:bg-white/20 transition-colors"
                     aria-label="Note"
@@ -34,12 +34,11 @@ export default function Header() {
                     <BookOpen size={20} />
                 </a>
                 <a
-                    href="https://line.me"
-                    target="_blank"
+                    href="mailto:contact@on-ur-own.com"
                     className="p-2 rounded-full hover:bg-white/20 transition-colors"
-                    aria-label="LINE"
+                    aria-label="Contact"
                 >
-                    <Send size={20} />
+                    <Mail size={20} />
                 </a>
             </nav>
         </motion.header>
