@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #021a12;
+  /* Deep forest green */
+  font-family: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .writing-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .text-combine-upright {
+    text-combine-upright: all;
+  }
+
+  /* Force sharp edges globally if needed, or just use rounded-none in components */
+  .rounded-none {
+    border-radius: 0px !important;
+  }
+}
