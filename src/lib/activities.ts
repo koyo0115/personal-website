@@ -9,6 +9,14 @@ export const activities = [
         concept: "山と向き合い、高みを目指す孤独な行軍。",
         philosophy: "頂を目指す過程で、私たちは己の弱さと対峙する。自然の厳しさは、都市で麻痺した感覚を呼び覚ます。",
         ritual: "毎月第1土曜日。早朝、指定された登山口に集合。会話は最小限に、ただひたすらに歩を進める。",
+        detailsTitle: "Target Peaks",
+        details: [
+            "Mt. Yarigatake (槍ヶ岳)",
+            "Mt. Tsurugi (剱岳)",
+            "Mt. Hotaka (穂高岳)",
+            "Mt. Tanigawa (谷川岳)",
+            "Mt. Ishizuchi (石鎚山)"
+        ],
         image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=2070&auto=format&fit=crop",
         icon: Mountain,
         gradient: "from-green-900 to-black"
@@ -20,6 +28,11 @@ export const activities = [
         concept: "心肺と筋肉を極限まで追い込む、肉体の証明。",
         philosophy: "肉体の限界は、精神の限界ではない。激しい鼓動の中でこそ、生の実感が鮮明になる。",
         ritual: "週2回、深夜の倉庫ジムにて。HYROX形式のサーキットトレーニング。妥協は許されない。",
+        detailsTitle: "Next Challenge",
+        details: [
+            "2026.06.XX HYROX TOKYO",
+            "Weekly Training: Wed 20:00"
+        ],
         image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop",
         icon: Dumbbell,
         gradient: "from-stone-900 to-black"
@@ -31,6 +44,12 @@ export const activities = [
         concept: "他者の視点を通じ、自己の世界観を拡張する。",
         philosophy: "スクリーンは鏡だ。他者の物語を追体験することで、私たちは自分自身の深層心理を覗き見る。",
         ritual: "隔週金曜夜。ミニシアターを貸し切り、選定された作品を鑑賞。上映後は沈黙の時間を設ける。",
+        detailsTitle: "Recommended Works",
+        details: [
+            "Dead Poets Society (今を生きる)",
+            "Good Will Hunting (グッド・ウィル・ハンティング)",
+            "The Wind Rises (風立ちぬ)"
+        ],
         image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop",
         icon: Film,
         gradient: "from-teal-900 to-black"
@@ -42,6 +61,14 @@ export const activities = [
         concept: "熱と冷気の中で思考を停止させ、無に帰る。",
         philosophy: "情報はノイズだ。極限の熱と冷水の衝撃によってのみ、私たちは思考のループから解放される。",
         ritual: "月1回、会員制サウナにて。3セットの反復。デジタルデバイスの持ち込みは厳禁。",
+        detailsTitle: "Sanctuaries",
+        details: [
+            "The Sauna (Nagano)",
+            "Kobe Sauna & Spa (Hyogo)",
+            "Skaïspa (Nagoya)",
+            "Hokuo (Tokyo)",
+            "Shizuku (Tokyo)"
+        ],
         image: "https://images.unsplash.com/photo-1515362778563-6a8d0e44bc0b?q=80&w=2070&auto=format&fit=crop",
         icon: Waves,
         gradient: "from-emerald-950 to-black"
@@ -53,6 +80,14 @@ export const activities = [
         concept: "一定のリズムの中で、思考と身体が溶け合う動的な瞑想。",
         philosophy: "走ることは、祈ることにも似ている。地面を蹴る単純な反復の中に、真理は宿る。",
         ritual: "毎週水曜夜、皇居外周。ペースは問わない。自身の呼吸とリズムだけに集中する20km。",
+        detailsTitle: "Major Races",
+        details: [
+            "Tokyo Marathon",
+            "Honolulu Marathon",
+            "Berlin Marathon",
+            "New York City Marathon",
+            "Boston Marathon"
+        ],
         image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=2070&auto=format&fit=crop",
         icon: Activity,
         gradient: "from-orange-950 to-black"
@@ -64,6 +99,10 @@ export const activities = [
         concept: "静寂の中で自己の内面を凝視し、軸を整える。",
         philosophy: "外の世界は変えられないが、内なる世界は変えられる。静寂こそが、最強の武器となる。",
         ritual: "新月の夜。暗闇の中で座禅を組む。思考が浮かんでは消えるのを、ただ観察する。",
+        detailsTitle: "Next Session",
+        details: [
+            "2026.01.29 (New Moon) 20:00 - 21:00"
+        ],
         image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2031&auto=format&fit=crop",
         icon: Brain,
         gradient: "from-indigo-950 to-black"

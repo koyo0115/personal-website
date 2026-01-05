@@ -77,8 +77,9 @@ export default function ActivityDetail() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="space-y-8"
+                        className="space-y-12"
                     >
+                        {/* Ritual Section */}
                         <div>
                             <h2 className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">
                                 The Ritual
@@ -87,6 +88,23 @@ export default function ActivityDetail() {
                                 {activity.ritual}
                             </p>
                         </div>
+
+                        {/* Dynamic Details Section (Recommendations / Schedules) */}
+                        {activity.details && (
+                            <div>
+                                <h2 className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-6">
+                                    {activity.detailsTitle}
+                                </h2>
+                                <ul className="space-y-4">
+                                    {activity.details.map((item, index) => (
+                                        <li key={index} className="flex items-center gap-4 text-lg font-medium text-gray-300 border-b border-white/5 pb-4">
+                                            <span className="text-xs text-gray-600 font-mono">0{index + 1}</span>
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
 
                         <div className="pt-8">
                             <a
